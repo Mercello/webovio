@@ -1,0 +1,669 @@
+<!DOCTYPE html>
+<html lang="en" class="page">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./images/favicon.svg" type="image/x-icon">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="theme-color" content="#111111">
+    <title>Webovio</title>
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,300&display=swap" rel="stylesheet"> 
+  </head>
+  <body class="page__body">
+    <header class="header">
+      <div class="container header__container">
+        <a href="#" class="header__logo logo">
+          <img src="./images/logo.svg" alt="Webovio. logo" width="258" height="40" loading="lazy">
+        </a>
+        <nav class="header__nav">
+          <ul class="header__list list-reset">
+            <li class="header__item">
+              <a href="#" class="header__link" aria-label="About">
+                About 
+              </a>
+            </li>
+            <li class="header__item">
+              <a href="#" class="header__link" aria-label="Blog">
+                Blog 
+              </a>
+            </li>
+            <li class="header__item">
+              <a href="#" class="header__link" aria-label="Contact">
+                Contact 
+              </a>
+            </li>
+            <li class="header__item">
+              <a href="#" class="header__link" aria-label="Jobs">
+                Jobs 
+              </a>
+            </li>
+          </ul>
+        </nav>
+        <button class="burger btn-reset not-active" aria-label="Open menu">
+          <span class="burger__line"></span>
+          <span class="burger__line"></span>
+          <span class="burger__line"></span>
+        </button>
+      </div>
+    </header>
+    <div class="nav-overlay"></div>
+    <main>
+      <section class="hero">
+        <picture class="hero__pic">
+          <source 
+            type="images/jpg" 
+            srcset="images/background-480.jpg 480w, images/background.jpg 1440w, images/background.jpg 2880w"
+          >
+          <img 
+            src="images/background.webp" 
+            srcset="images/background.webp 1440w, images/background__2x.webp 2880w"
+            sizes="(max-width: 1440px) 1000px, (min-width: 1440px) 2880px"
+            class="hero__bg" 
+            width="1440" 
+            height="812"
+            alt="background" 
+          >
+        </picture>
+        <div class="container hero__container">
+          <div class="hero__content">
+            <h2 class="hero__title title">
+              A place where 
+            </h2>
+            <h3 class="hero__subtitle subtitle">
+              A creative agency for redemptive brands
+            </h3>
+            <p class="hero__desc desc">
+              Anteelo is a leading strategic design firm that builds powerful digital solutions for startups and enterprises.
+            </p>
+            <a href="#" class="hero__link link" aria-label="Get in touch link">
+              <svg id="arrow" fill="#FFD723" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 494.148 494.148" style="enable-background:new 0 0 494.148 494.148;" xml:space="preserve">
+                <path d="M405.284,201.188L130.804,13.28C118.128,4.596,105.356,0,94.74,0C74.216,0,61.52,16.472,61.52,44.044v406.124
+                c0,27.54,12.68,43.98,33.156,43.98c10.632,0,23.2-4.6,35.904-13.308l274.608-187.904c17.66-12.104,27.44-28.392,27.44-45.884
+                C432.632,229.572,422.964,213.288,405.284,201.188z">
+                </path>
+              </svg>
+              <span class="link__span">Get in touch</span> 
+            </a>
+          </div>
+          <div class="techno__brand">
+            <div class="techno__wrapper">
+              <img src="./images/andrew-porter.jpg" alt="Angrew Porter logo" class="techno__pic" width="156" height="113" loading="lazy" decoding="async">
+              <img src="./images/jalen.jpg" alt="Leadership logo" class="techno__pic" width="156" height="113" loading="lazy" decoding="async">
+              <img src="./images/wal.jpg" alt="Walbridge logo" class="techno__pic" width="156" height="113" loading="lazy" decoding="async">
+              <img src="./images/Ideal.jpg" alt="Ideal Contracting logo" class="techno__pic" width="156" height="113" loading="lazy" decoding="async">
+              <img src="./images/phalen.jpg" alt="Phalen logo" class="techno__pic" width="156" height="113" loading="lazy" decoding="async">
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="techno">
+        <div class="container techno__container">
+          <div class="techno__content">
+            <h2 class="techno__title title">
+              What we do for you
+            </h2>
+            <h3 class="techno__subtitle subtitle-2">
+              Strategy. Design  Content. Technology Development 
+            </h3>
+            <p class="techno__desc desc">
+              There’s no secret sauce, no wizard behind the curtain. What makes Aerolab tick is an interdisciplinary team with a framework that fosters candid collaboration.
+            </p>
+            <a href="#" class="techno__link link" aria-label="More know About us">
+              <svg id="arrow-2" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 494.148 494.148" style="enable-background:new 0 0 494.148 494.148;" xml:space="preserve">
+                <path d="M405.284,201.188L130.804,13.28C118.128,4.596,105.356,0,94.74,0C74.216,0,61.52,16.472,61.52,44.044v406.124
+                c0,27.54,12.68,43.98,33.156,43.98c10.632,0,23.2-4.6,35.904-13.308l274.608-187.904c17.66-12.104,27.44-28.392,27.44-45.884
+                C432.632,229.572,422.964,213.288,405.284,201.188z"></path>
+              </svg>
+              <span class="link__span">
+                More know About us
+              </span>
+            </a>
+          </div>
+          <blockquote class="techno__quote">
+            <p class="techno__quote-desc">
+              With More than 10 Years of Knowledge and Expertise we Design and Code Websites and Apps, We Build Brands and Help Them Succeed
+            </p>
+            <div class="techno__quote-cite">
+              <img class="techno__quote-img" src="./images/techno-img2.jpg" width="90" height="90" loading="lazy" alt="Genevieve Rodriquez" decoding="async">  
+              <div class="techno__quote-inner">
+                <h4 class="techno__quote-name">
+                  Genevieve Rodriquez
+                </h4>
+                <span class="tecchno__quote-uri">
+                  Founder & CEO, Webovio
+                </span>
+              </div>
+            </div>
+          </blockquote>
+        </div>
+      </section>
+      <section class="project">
+        <div class="container project__container">
+          <h3 class="project__subtitle subtitle-2">
+            We Have Some
+            Awesome Project.
+          </h3>
+          <p class="project__desc desc">
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+          </p>
+        </div>
+      </section>
+      <section class="wall section">
+        <div class="section__img-wrapper">
+          <picture>
+            <source 
+              type="images/jpg"
+              srcset="images/wall-bg.jpg 735w, images/wall-bg__2x.jpg 2x"
+            >
+            <img 
+              class="wall__img section__img" 
+              src="./images/wall-bg.webp"
+              srcset="./images/wall-bg.webp 735w, ./images/wall-bg__2x.webp 1470w" 
+              sizes="(max-width: 1200px) 500px, (min-width: 1200px) 1440px"
+              width="735"
+              height="550"
+              decoding="async" 
+              loading="lazy"
+              alt="illustration"
+            >
+          </picture>
+          <picture>
+            <source
+              type="images/jpg"
+              srcset="images/wal-bg.jpg 735w"
+            >
+            <img 
+              class="section__img--block" 
+              src="./images/wall-bg.webp"
+              width="735" 
+              height="550" 
+              decoding="async" 
+              loading="lazy"
+              alt="illustration"
+            >
+          </picture>
+        </div>
+        <div class="container wall__container section__container">
+          <div class="wall__content section__content">
+            <h3 class="wall__title subtitle-2 section__title">
+              The wall new Balenciaga.com
+            </h3>
+            <div class="wall__text section__text">
+              <p class="wall__desc desc section__desc">
+                This article is floated online with an aim to help you find the best dvd printing solution. 
+              </p>
+              <p class="wall__desc desc section__desc">
+                Dvd printing is an important feature used by large and small DVD production houses to print information on DVDs.
+              </p>
+            </div>
+            <a href="#" class="wall__link link section__link" aria-label="See Case Study">
+              <svg>
+                <use xlink:href="#arrow-2"></use>
+              </svg>
+              <span class="link__span">
+                See Case Study
+              </span>
+            </a>
+            <blockquote class="section__quote wall__quote">
+              <p class="section__quote-desc wall__quote-desc">
+                “In my history of working with trade show vendors, I can honestly say that there is not one company that I've ever worked with that has better service than Exhibit Systems.”
+              </p>
+              <div class="section__quote-cite wall__quote-cite">
+                <img 
+                  class="model__quote-img" 
+                  src="./images/wall-quote-img.jpg" 
+                  width="46" 
+                  height="46" 
+                  decoding="async"
+                  loading="lazy" 
+                  alt="Angel Armsrong"
+                >
+                <div class="section__quote-inner">
+                  <h4 class="section__quote-name wall__quote-name">
+                    Angel Armstrong
+                  </h4>
+                  <span class="section__quote-uri wall__quote-uri">
+                    Founder & CEO, Google
+                  </span>
+                </div>
+              </div>
+            </blockquote>
+          </div>
+        </div>
+      </section>
+      <section class="model section">
+        <div class="section__img-wrapper">
+          <picture>
+            <source
+              type="images/jpg"
+              srcset="images/model-bg.jpg 735w, images/model-bg__2x.jpg 2x"
+            >
+            <img 
+              class="model__img section__img" 
+              src="./images/model-bg.we" 
+              srcset="./images/model-bg.webp 735w, ./images/model-bg__2x.webp 1470w" 
+              sizes="(max-width: 1280px) 500px, (min-width: 1280px) 1440px"
+              width="735" 
+              height="550"
+              decoding="async" 
+              loading="lazy"
+              alt="illustration"
+            > 
+          </picture>
+          <picture>
+            <source
+              type="images/jpg"
+              srcset="images/model-bg.jpg 735w"
+            >
+            <img 
+              class="section__img--block" 
+              src="./images/model-bg.jpg" 
+              width="735" 
+              height="550" 
+              decoding="async" 
+              loading="lazy"
+              alt="illustration"
+            >
+          </picture>
+        </div>
+        <div class="container model__container section__container">
+          <div class="model__content section__content">
+            <h3 class="model__title subtitle-2 section__title">
+              Is this the future of
+              3D model?
+            </h3>
+            <div class="model__text section__text">
+              <p class="model__desc desc section__desc">
+                While it was just a TV show, that little speech at the beginning of the original Star Trek show really did do a good job of capturing our feelings about space.
+              </p>
+              <p class="model__desc desc section__desc">
+                It is those feelings that drive our love of astronomy and our desire to learn more and more about it.  
+              </p>
+            </div>
+            <a href="#" class="model__link link section__link"  aria-label="See Case Study">
+              <svg>
+                <use xlink:href="#arrow-2"></use>
+              </svg>
+              <span class="link__span">
+                See Case Study
+              </span>
+            </a>
+            <blockquote class="section__quote model__quote">
+              <p class="section__quote-desc model__quote-desc">
+                “I know they are going to be honest with me. I am not going to get a subpar product; I know it is going to be good. That is the number one advantage of working with Exhibit Systems.
+              </p>
+              <div class="section__quote-cite model__quote-cite">
+                <img 
+                  class="model__quote-img" 
+                  src="./images/model-quote-img.jpg" 
+                  width="46" 
+                  height="46" 
+                  decoding="async"
+                  loading="lazy" 
+                  alt="Lina Hart"
+                >
+                <div class="section__quote-inner">
+                  <h4 class="section__quote-name model__quote-name">
+                    Lina Hart
+                  </h4>
+                  <span class="section__quote-uri model__quote-uri">
+                    Founder & CEO, Jico
+                  </span>
+                </div>
+              </div>
+            </blockquote>
+          </div>
+        </div>
+      </section>
+      <section class="booking section">
+        <div class="booking__wrapper-img section__wrapper-img">
+          <picture>
+            <source
+              type="images/jpg"
+              srcset="images/booking-bg.jpg 735w"
+            >
+            <img 
+              class="section__img--block" 
+              src="./images/booking-bg.webp" 
+              width="735" 
+              height="550" 
+              decoding="async" 
+              loading="lazy"
+              alt="illustration"
+            >
+          </picture>
+          <picture>
+            <source 
+              type="images/jpg"
+              srcset="./images/booking-bg.webp 735w, ./images/booking-bg__2x.webp 1470w"
+            >
+            <img 
+              class="booking__img section__img" 
+              src="./images/booking-bg.webp" 
+              srcset="./images/booking-bg.webp 735w, ./images/booking-bg__2x.webp 1470w" 
+              sizes="(max-width: 1280px) 500px, (min-width: 1280px) 1440px"
+              width="735" 
+              height="550" 
+              decoding="async" 
+              loading="lazy"
+              alt="illustration"
+            >
+          </picture>
+        </div>
+        <div class="container booking__container section__container">
+          <div class="booking__content section__content">
+            <h3 class="booking__title subtitle-2 section__title">
+              Is this the model of 
+              Online Booking
+            </h3>
+            <div class="booking__text section__text">
+              <p class="booking__desc desc section__desc">
+                You should be able to find several indispensable facts about motivation in the following paragraphs. 
+              </p>
+              <p class="booking__desc desc section__desc">
+                If there’s at least one fact you didn’t know before, imagine the difference it might make. 
+              </p>
+            </div>
+
+            <a href="#" class="booking__link link section__link"  aria-label="See Case Study">
+              <svg>
+                <use xlink:href="#arrow-2"></use>
+              </svg>
+              <span class="link__span">
+                See Case Study
+              </span>
+            </a>
+            <blockquote class="section__quote booking__quote">
+              <p class="section__quote-desc booking__quote-desc">
+                “In my history of working with trade show vendors, I can honestly say that there is not one company that I've ever worked with that has better service than Exhibit Systems.”
+              </p>
+              <div class="section__quote-cite booking__quote-cite">
+                <img 
+                  class="booking__quote-img" 
+                  src="./images/wall-quote-img.jpg" 
+                  width="46" 
+                  height="46" 
+                  decoding="async"
+                  loading="lazy" 
+                  alt="Angel Armstrong"
+                >
+                <div class="section__quote-inner booking__quote-inner">
+                  <h4 class="section__quote-name booking__quote-name">
+                    Angel Armstrong
+                  </h4>
+                  <span class="section__quote-uri booking__quote-uri">
+                    Founder & CEO, Google
+                  </span>
+                </div>
+              </div>
+            </blockquote>
+          </div>
+        </div>
+      </section>
+      <section class="benefits">
+        <div class="container benefits__container">
+          <h3 class="benefits__title subtitle-2">
+            Deation & Evaluation - Best Way to Kick off Your Product Idea
+          </h3>
+          <ul class="benefits__list list-reset">
+            <li class="benefits__item">
+              <h4 class="benefits__subtitle subtitle">Product 
+                Design Sprint
+              </h4>
+              <p class="benefits__desc desc">
+                A five-day workshop that will help you answer crucial business questions
+              </p>
+              <a href="#" class="benefits__link link"  aria-label="Read More">
+                <svg>
+                  <use xlink:href="#arrow-2"></use>
+                </svg>
+                <span class="link__span">Read More</span> 
+              </a>
+            </li>
+            <li class="benefits__item">
+              <h4 class="benefits__subtitle subtitle">Scoping
+                Session
+              </h4>
+              <p class="benefits__desc desc">A workshop aimed at shaping your business idea, answering questions regarding project planning</p>
+              <a href="#" class="benefits__link link" aria-label="Read More">
+                <svg>
+                  <use xlink:href="#arrow-2"></use>
+                </svg>
+                <span class="link__span">Read More</span> 
+              </a>
+            </li>
+            <li class="benefits__item">
+              <h4 class="benefits__subtitle subtitle">UX
+                Review
+              </h4>
+              <p class="benefits__desc desc">
+                An evaluation which will help you radically improve your product.
+              </p>
+              <a href="#" class="benefits__link link" aria-label="Read More">
+                <svg>
+                  <use xlink:href="#arrow-2"></use>
+                </svg>
+                <span class="link__span">Read More</span> 
+              </a>
+            </li>
+            <li class="benefits__item">
+              <h4 class="benefits__subtitle subtitle">Code 
+                Review
+              </h4>
+              <p class="benefits__desc desc">
+                Do you know what one of the key secrets of success is what makes people successful in business
+              </p>
+              <a href="#" class="benefits__link link" aria-label="Read More">
+                <svg>
+                  <use xlink:href="#arrow-2"></use>
+                </svg>
+                <span class="link__span">Read More</span> 
+              </a>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="container footer__container">
+        <ul class="footer__wrapper-list list-reset">
+          <li class="footer__top footer-top">
+            <ul class="footer-top__list list-reset grid">
+              <li class="footer-top__item">
+                <h5 class="footer-top__title">
+                  Phone
+                </h5>
+                <a href="#" class="footer-top__tel" aria-label="Phone number">
+                  +32 50 31 28 32
+                </a>
+              </li>
+              <li class="footer-top__item">
+                <h5 class="footer-top__title">
+                  Address
+                </h5>
+                <a href="#" class="footer-top__tel" aria-label="Address">
+                  491 Merlin Crest Suite 963
+                </a>
+              </li>
+            </ul>
+          </li>
+          <li class="footer__info footer-info">
+            <ul class="footer-info__list list-reset grid">
+              <li class="footer-list__item">
+                <h5 class="footer-list__title">
+                  Services
+                </h5>
+                <ul class="footer-item__link-list list-reset">
+                  <li class="footer-list__link-item">
+                    <a href="#" class="footer-list__link" aria-label=" Strategy Design">
+                      Strategy Design
+                    </a>
+                  </li>
+                  <li class="footer-list__link-item">
+                    <a href="#" class="footer-list__link" aria-label="Product Design">
+                      Product Design
+                    </a>
+                  </li>
+                  <li class="footer-list__link-item">
+                    <a href="#" class="footer-list__link" aria-label="Content Strategy">
+                      Content Strategy
+                    </a>
+                  </li>
+                  <li class="footer-list__link-item">
+                    <a href="#" class="footer-list__link" aria-label="Brand Strategy">
+                      Brand Strategy
+                    </a>
+                  </li>
+                  <li class="footer-list__link-item">
+                    <a href="#" class="footer-list__link" aria-label="Development">
+                      Development 
+                    </a>
+                  </li>
+                </ul>
+              </li>
+              <li class="footer-list__item">
+                <h5 class="footer-list__title">
+                  Help And Advice
+                </h5>
+                <ul class="footer-item__link-list list-reset">
+                  <li class="footer-list__link-item">
+                    <a href="#" class="footer-list__link" aria-label="How it works">
+                      How it works
+                    </a>
+                  </li>
+                  <li class="footer-list__link-item">
+                    <a href="#" class="footer-list__link" aria-label="Contact Support">
+                      Contact Support
+                    </a>
+                  </li>
+                  <li class="footer-list__link-item">
+                    <a href="#" class="footer-list__link" aria-label="Privacy Policy">
+                      Privacy Policy
+                    </a>
+                  </li>
+                  <li class="footer-list__link-item">
+                    <a href="#" class="footer-list__link" aria-label="FAQ">
+                      FAQ
+                    </a>
+                  </li>
+                </ul>
+              </li>
+              <li class="footer-list__item nav">
+                <h5 class="footer-list__title">
+                  Company
+                </h5>
+                <ul class="footer-item__link-list list-reset">
+                  <li class="footer-list__link-item">
+                    <a href="#" class="footer-list__link" aria-label="About">
+                      About
+                    </a>
+                  </li>
+                  <li class="footer-list__link-item">
+                    <a href="#" class="footer-list__link" aria-label="Blog">
+                      Blog
+                    </a>
+                  </li>
+                  <li class="footer-list__link-item">
+                    <a href="#" class="footer-list__link" aria-label="Contact">
+                      Contact
+                    </a>
+                  </li>
+                  <li class="footer-list__link-item">
+                    <a href="#" class="footer-list__link" aria-label="Jobs">
+                      Jobs
+                    </a>
+                  </li>
+                </ul>
+              </li>
+              <li class="footer-list__item">
+                <h5 class="footer-list__title">
+                  Get in Touch
+                </h5>
+                <ul class="footer-item__link-list list-reset">
+                  <li class="footer-list__link-item">
+                    <a href="mailto:info.webovio@gmail.com" class="footer-list__link">
+                      Feel free to get in touch with us vai email
+                    </a>
+                  </li>
+                  <li class="footer-list__link-item footer-list__link-item--mail">
+                    <span class="footer-list__link--mail">
+                      info.webovio@gmail.com
+                    </span>
+                  </li>
+                  <li class="footer-list__link-item">
+                    <ul class="footer__social list-reset">
+                      <li class="footer__social-item">
+                        <a href="#" class="footer__social-link" aria-label="Facebook">
+                          <svg width="20" height="20" viewBox="0 0 12 20" xmlns="http://www.w3.org/2000/svg">
+                            <path d="m10.652 11.256.555-3.617H7.736V5.283a1.81 1.81 0 0 1 2.038-1.955h1.579V.257A19.242 19.242 0 0 0 8.552.013a4.416 4.416 0 0 0-4.727 4.87v2.756H.647v3.617h3.178V20h3.91v-8.744h2.917z"/>
+                          </svg>
+                        </a>
+                      </li>
+                      <li class="footer__social-item">
+                        <a href="#" class="footer__social-link" aria-label="Twitter">
+                          <svg width="20" height="20" viewBox="0 0 20 18" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M17.947 4.926c.013.178.013.355.013.533A11.583 11.583 0 0 1 6.297 17.122 11.586 11.586 0 0 1 0 15.277c.329.037.66.054.99.052a8.21 8.21 0 0 0 5.09-1.751 4.106 4.106 0 0 1-3.834-2.84 4.34 4.34 0 0 0 1.845-.075A4.1 4.1 0 0 1 .812 6.638v-.05a4.128 4.128 0 0 0 1.854.522 4.106 4.106 0 0 1-1.27-5.485 11.652 11.652 0 0 0 8.452 4.287 4.626 4.626 0 0 1-.1-.94 4.104 4.104 0 0 1 7.095-2.8 8.071 8.071 0 0 0 2.602-.99 4.089 4.089 0 0 1-1.803 2.258A8.219 8.219 0 0 0 20 2.797a8.812 8.812 0 0 1-2.053 2.129z"/>
+                          </svg>
+                        </a>
+                      </li>
+                      <li class="footer__social-item">
+                        <a href="#" class="footer__social-link" aria-label="Google plus">
+                          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="20" height="20">
+                            <path d="M11 7c-4.973 0-9 4.027-9 9s4.027 9 9 9 9-4.027 9-9c0-.617-.066-1.219-.188-1.8l-.046-.2H11v3h6c-.477 2.836-3.027 5-6 5-3.313 0-6-2.688-6-6 0-3.313 2.688-6 6-6 1.5 0 2.867.555 3.922 1.465l2.148-2.106A8.963 8.963 0 0 0 11 7zm14 4v3h-3v2h3v3h2v-3h3v-2h-3v-3z"/>
+                          </svg>
+                        </a>
+                      </li>
+                      <li class="footer__social-item">
+                        <a href="#" class="footer__social-link" aria-label="LinkedIn">
+                          <svg id="linkedin" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50" width="20" height="20">
+                            <path d="M8 3.01c-3.47 0-5.99 2.08-5.99 4.94 0 2.87 2.58 5.04 5.99 5.04 3.47 0 5.99-2.12 5.99-5.1-.16-2.87-2.63-4.88-5.99-4.88zM3 15c-.55 0-1 .45-1 1v29c0 .55.45 1 1 1h10c.55 0 1-.45 1-1V16c0-.55-.45-1-1-1H3zm15 0c-.55 0-1 .45-1 1v29c0 .55.45 1 1 1h9a1 1 0 0 0 1-1V29.5c0-2.37 1.82-4.3 4.14-4.48.12-.02.24-.02.36-.02s.24 0 .36.02c2.32.18 4.14 2.11 4.14 4.48V45a1 1 0 0 0 1 1h9c.55 0 1-.45 1-1V28c0-6.47-3.47-13-11.21-13-3.52 0-6.18 1.36-7.79 2.49V16c0-.55-.45-1-1-1"/>
+                          </svg>
+                        </a>
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li class="footer__bottom">
+            <a href="#" class="footer__logo logo" aria-label="Webovio. logo">
+              <img src="./images/logo.svg" width="200" height="35" loading="lazy" alt="Webovio. logo">
+            </a>
+            <span class="footer__copyright">
+              © 2020@webovio. All Rights Reserved.
+            </span>
+          </li>
+        </ul>
+        <div class="footer__make">
+          <div class="footer__inner footer-inner">
+            <h3 class="footer-inner__title subtitle">
+              Let’s make something amazing together.
+            </h3>
+            <a href="#" class="footer__link link" aria-label="LET'S GET STARTED">
+              <svg>
+                <use xlink:href="#arrow-2"></use>
+              </svg>
+              <span class="link__span">LET'S GET STARTED</span> 
+            </a>
+          </div>
+        </div>
+      </div>
+        <img 
+          class="footer__img" 
+          src="./images/footer-bg.png"
+          decoding="async"
+          loading="lazy"
+          width="1440" 
+          height="730"
+          alt="background" 
+          >
+    </footer>
+    <script src="./js/intersection-observer-main/intersection-observer.js"></script>
+    <script src="./js/main.js"></script>
+  </body>
+</html>
